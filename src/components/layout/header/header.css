@@ -1,0 +1,25 @@
+/* Estilo general para Nav.Link */
+.custom-link-class {
+    color: #007bff; 
+    padding: 5px 5px;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+  }
+  
+  /* Estilo cuando el enlace es activo */
+  .custom-link-class.active {
+    color: #0056b3;
+  }
+  
+  /* Estilo cuando el mouse está sobre el enlace */
+  .custom-link-class:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Estilo cuando el enlace está deshabilitado */
+  .custom-link-class.disabled {
+    color: #6c757d; 
+    pointer-events: none;
+  }
